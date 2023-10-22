@@ -99,13 +99,13 @@ const Encrypt = () => {
                         <label className='text-gray-500 font-montserrat font-bold text-lg'>
                           Hex
                         </label>
-                        <p className='w-full h-[3rem] my-4 rounded-lg bg-third text-gray-500 font-montserrat font-bold text-lg px-4'>
+                        <p className='w-full h-[3rem] my-4 rounded-lg bg-third text-gray-500 font-montserrat font-bold text-lg px-4 flex justify-start items-center'>
                           {encryptedMessage[1]}
                         </p>
                         <label className='text-gray-500 font-montserrat font-bold text-lg'>
                           Text
                         </label>
-                        <p className='w-full h-[3rem] my-4 rounded-lg bg-third text-gray-500 font-montserrat font-bold text-lg px-4'>
+                        <p className='w-full h-[3rem] my-4 rounded-lg bg-third text-gray-500 font-montserrat font-bold text-lg px-4 flex justify-start items-center'>
                           {encryptedMessage[0]}
                         </p>
                         <button onClick={handleReset} className='w-[8rem] h-[3rem] bg-gray-500 rounded-lg font-montserrat text-lg font-[600] hover:scale-90 transition-all duration-150'>
